@@ -1,3 +1,5 @@
+object vypocet extends App{
+
 var x: Double = 2
 var y: Double = 3
 var z: Double = 4
@@ -14,3 +16,4 @@ for ( i <- 1 to 10000000 ) {
     z = z + 2
 }
 println( "Value of pi = " + paj );
+}
